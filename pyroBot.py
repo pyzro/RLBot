@@ -259,28 +259,6 @@ class Agent:
 
 		# print(self.bot_speed_linear)
 
-		# def dodge(self):
-		# 	if self.bot_doublejumped:
-		# 		self.jump=False
-		# 	elif not self.bot_jumped:
-		# 		self.jump=True
-		# 		if 20>self.angle_front_to_target < 45:
-		# 			self.yaw = -1
-		# 		elif -20<self.angle_front_to_target > -45:
-		# 			self.yaw = 1
-		# 		elif 46>self.angle_front_to_target<90:
-		# 			self.yaw = -1
-		# 		elif -46<self.angle_front_to_target>-90:
-		# 			self.yaw = 1
-		# 		else:
-		# 			self.yaw = 0
-		# 		self.pitch = -1
-		# 		self.next_dodge_time = time.time() + 0.15
-		# 	elif  time.time() > self.next_dodge_time:
-		# 		self.jump=True
-		# 		self.pitch=-1
-		# 		self.after_dodge=True
-
 
 
 #dodge
